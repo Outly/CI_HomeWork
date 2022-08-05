@@ -21,3 +21,5 @@ jobs:
       uses: actions/checkout@v1
     - name: "Запускаем тесты"
       run: mvn clean test
+    - name: "Формируем allure отчет"
+      run: mvn allure:serve
