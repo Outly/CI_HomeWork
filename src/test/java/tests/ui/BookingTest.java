@@ -34,7 +34,7 @@ public class BookingTest extends BaseTest {
                 .searchBoxButtonClick();
     }
 
-//    @Test
+    @Test
     public void hotelStarsCountTest() {
         SearchResultPage searchResultPage = new SearchResultPage();
         searchResultPage.sendStatsFilter(starsCount)
